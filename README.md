@@ -13,7 +13,7 @@ Each instance created from the Dog class wil store a name and an age. We will gi
 class Dog: #1
     """A simple attempt to model a dog.""" #2
     
-    def ```__init__```(self, name, age): #3
+    def __init__(self, name, age): #3
       """Initialize name and age attributes."""
       self.name = name #4
       self.age = age
@@ -36,6 +36,6 @@ If you notice, there is a hashtag (#) with a number inside the code. Below is th
 
 #3 -> ```__init__()``` is a special method that Python runs automatically whenever we create a new instance from the Dog class. In this case it has three parameters: ```self, name, and age```. The self parameter must come first before the other parameters. It must be included in the definition because when Python calls this method later (to create an instance of ```Dog```), the method call will automatically pass the ```self``` argument. Every method call associated with an instance automatically passes ```self```, which is a reference to the instance itself; it gives the individual instance access to the attributes and methods in the class. When we make an instance of ```Dog```, Python will call the ```__init__()``` method from the ```Dog``` class. We'll pass ```Dog()``` a name and an age as arguments; ```self``` is passed automatically, so we don't need to pass it. Whenever we want to make an instance from the ```Dog``` class, we'll provide values for only last two parameters, ```name``` and ```age```.
 
-#4
+#4 -> The defined variables in this method have the prefix ```self```. Any variable prefixed with ```self``` is available to every method in the class.
 
 #5
