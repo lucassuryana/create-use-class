@@ -38,4 +38,4 @@ If you notice, there is a hashtag (#) with a number inside the code. Below is th
 
 #4 -> The defined variables in this method have the prefix ```self```. Any variable prefixed with ```self``` is available to every method in the class, and we'll also be able to access these variables through any instance created from the class.
 
-#5 -> The ```Dog``` class has two other methods: ```sit()``` and ```roll_over()```. Because these methods don't need additional information to run, we just define them to have on parameters ```self```.
+#5 -> The ```Dog``` class has two other methods: ```sit()``` and ```roll_over()```. Because these methods don't need additional information to run, we just define them to have one parameters ```self```.
