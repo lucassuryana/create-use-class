@@ -29,6 +29,7 @@ class Dog: #1
 ```
 
 If you notice, there is a hashtag (#) with a number inside the code. Below is the explanation:
+
 #1 -> Create a class called Dog. By convention, the class is written in capitalized named and it does not need parentheses because we write it from the scratch.
 
 #2 -> A docstring to describe what the class does
