@@ -32,10 +32,10 @@ If you notice, there is a hashtag (#) with a number inside the code. Below is th
 
 #1 -> Create a class called ```Dog```. By convention, the class is written in capitalized named and it does not need parentheses because we write it from the scratch.
 
-#2 -> A docstring to describe what the class does
+#2 -> A docstring to describe what the class does.
 
 #3 -> ```__init__()``` is a special method that Python runs automatically whenever we create a new instance from the Dog class. In this case it has three parameters: ```self, name, and age```. The self parameter must come first before the other parameters. It must be included in the definition because when Python calls this method later (to create an instance of ```Dog```), the method call will automatically pass the ```self``` argument. Every method call associated with an instance automatically passes ```self```, which is a reference to the instance itself; it gives the individual instance access to the attributes and methods in the class. When we make an instance of ```Dog```, Python will call the ```__init__()``` method from the ```Dog``` class. We'll pass ```Dog()``` a name and an age as arguments; ```self``` is passed automatically, so we don't need to pass it. Whenever we want to make an instance from the ```Dog``` class, we'll provide values for only last two parameters, ```name``` and ```age```.
 
-#4 -> The defined variables in this method have the prefix ```self```. Any variable prefixed with ```self``` is available to every method in the class.
+#4 -> The defined variables in this method have the prefix ```self```. Any variable prefixed with ```self``` is available to every method in the class, and we'll also be able to access these variables through any instance created from the class.
 
-#5
+#5 -> The ```Dog``` class has two other methods: ```sit()``` and ```roll_over()```. Because these methods don't need additional information to run, we just define them to have on parameters ```self```.
