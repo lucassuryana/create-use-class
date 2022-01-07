@@ -30,7 +30,11 @@ class Dog: #1
 
 If you notice, there is a hashtag (#) with a number inside the code. Below is the explanation:
 #1 -> Create a class called Dog. By convention, the class is written in capitalized named and it does not need parentheses because we write it from the scratch.
-#2
-#3
+
+#2 -> A docstring to describe what the class does
+
+#3 -> __init__() is a special method that Python runs automatically whenever we create a new instance from the Dog class. In this case it has three parameters: self, name, and age. The self parameter must come first before other parameters.
+
 #4
+
 #5
