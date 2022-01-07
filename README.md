@@ -10,19 +10,14 @@ The process of making an object from classes is called instantiation, and we wil
 
 Each instance created from the Dog class wil store a name and an age. We will give each dog the ability to sit() and roll_over(). 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+class Dog:
+    """A simple attempt to model a dog."""
+    
+    def __init__(self, name, age):
+      """Initialize name and age attributes."""
+      self.name = name
+      self.age = age
+    
+    def
+  
 ```
