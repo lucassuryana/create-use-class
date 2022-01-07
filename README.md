@@ -8,7 +8,7 @@ The process of making an object from classes is called instantiation, and we wil
 
 ### Creating the Dog Class
 
-Each instance created from the Dog class wil store a name and an age. We will give each dog the ability to sit() and roll_over(). 
+Each instance created from the Dog class wil store a name and an age. We will give each dog the ability to sit() and roll_over(). Copy and paste the code below to dog.py file.
 ```markdown
 class Dog:
     """A simple attempt to model a dog."""
@@ -18,6 +18,12 @@ class Dog:
       self.name = name
       self.age = age
     
-    def
+    def sit(self):
+        """Simulate a dog sitting in response to a command."""
+        print(f"{self.name} is now sitting.")
+        
+    def roll_over(self):
+        """Simulate rolling over in response to a command."""
+        print(f"{self.name} rolled over!")
   
 ```
