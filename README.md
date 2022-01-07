@@ -13,7 +13,7 @@ Each instance created from the Dog class wil store a name and an age. We will gi
 class Dog: #1
     """A simple attempt to model a dog.""" #2
     
-    def __init__(self, name, age): #3
+    def ```__init__```(self, name, age): #3
       """Initialize name and age attributes."""
       self.name = name #4
       self.age = age
