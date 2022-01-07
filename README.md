@@ -27,3 +27,10 @@ class Dog: #1
         print(f"{self.name} rolled over!")
   
 ```
+
+If you notice, there is a hashtag (#) with a number inside the code. Below is the explanation:
+#1 -> Create a class called Dog. By convention, the class is written in capitalized named and it does not need parentheses because we write it from the scratch.
+#2
+#3
+#4
+#5
